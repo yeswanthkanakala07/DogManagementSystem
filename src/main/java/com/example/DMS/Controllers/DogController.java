@@ -28,7 +28,7 @@ public class DogController {
 //	public String home() {
 //		return "home";
 //	}
-	@RequestMapping("dogHome")
+//	@RequestMapping("dogHome")
 	public ModelAndView home() {
 		mv.setViewName("home");
 		return mv;
